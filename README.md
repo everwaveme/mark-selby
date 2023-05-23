@@ -1,3 +1,1 @@
-<div id="header" align="center">
-  <img src="https://tenor.com/oYld.gif" width="100"/>
-</div>
+![screenshot of sample](https://tenor.com/oYld.gif)
