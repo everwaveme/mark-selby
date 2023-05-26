@@ -1,0 +1,31 @@
+.desc {
+  background-image: url(../images/ms-desc-bw.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.desc-fade {
+  padding-top: 690px;
+  padding-bottom: 110px;
+  background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
+}
+
+.desc-container {
+  @include container;
+}
+
+.desc-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  color: $color-light;
+}
+
+.desc-subtitle {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: $color-light;
+}
