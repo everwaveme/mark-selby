@@ -1,0 +1,47 @@
+.stats {
+  padding: 150px 0;
+  background-color: $color-dark;
+}
+
+.stats-container {
+  @include container;
+}
+
+.stats-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -10px;
+  list-style: none;
+}
+
+.stats-item {
+  flex-basis: 33.33%;
+  padding: 10px;
+}
+
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 0;
+  height: 100%;
+  border: 2px solid rgba(205, 172, 102, .4);
+  border-radius: 8px;
+
+}
+
+.stats-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+  color: $color-light;
+}
+
+.stats-text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: $color-light;
+}
