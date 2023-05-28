@@ -1,0 +1,43 @@
+.career {
+padding: 150px 0;
+background-color: $color-light;
+}
+
+.career-container {
+  @include container;
+}
+
+.career-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-pic {
+  flex-basis: 40%;
+}
+
+.career-desc {
+  flex-basis: 50%;
+}
+
+.career-title {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: $color-dark;
+}
+
+.career-text {
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: $color-dark;
+}
+
+.career-line {
+  margin: 150px auto;
+  width: 300px;
+  border: 1px solid $color-accent;
+}
