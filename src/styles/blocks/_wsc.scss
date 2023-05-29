@@ -1,0 +1,55 @@
+.wsc {
+  padding: 150px 0;
+  background-color: $color-dark;
+}
+
+.wsc-container {
+  @include container;
+}
+
+.wsc-title {
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: $color-light;
+}
+
+.wsc-list {
+  display: flex;
+  margin: 0 -15px;
+  list-style: none;
+}
+
+.wsc-item {
+  flex-basis: 25%;
+  padding: 0 15px;
+}
+
+.wsc-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.wsc-icon {
+  margin: 0 auto 50px auto;
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/wsc-star.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wsc-img {
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.wsc-text {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: $color-light;
+}
