@@ -55,11 +55,15 @@
 }
 
 .wsc-chronicle {
-  // position: relative;
-  border: 1px solid aqua;
+  margin-bottom: -100px;
+  // border: 1px solid aqua;
 }
 
-// Создал именно этот класс для 2014 года, так как у цифры '4' проблемы с прозрачностью (появляются лишние линии). Поэтому использовал два png файла.
+.wsc-chronicle-box {
+  margin-bottom: 100px;
+}
+
+// Для данных элементов использовал файлы png, а не шрифт, т.к. у шрифта 'Inter' проблемы с отображением при использовании обводки (неккоректное отображение).
 .wsc-chronicle-2014 {
   margin-left: auto;
   width: 640px;
@@ -73,31 +77,54 @@
   }
 }
 
-.wsc-chronicle-year {
-  font-weight: 900;
-  font-size: 268px;
-  line-height: 324px;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba($color-accent, .4);
+.wsc-chronicle-2016 {
+  margin-left: auto;
+  width: 640px;
+  height: 200px;
+  background-image: url(../images/wsc-chronicle-2016-tr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 
-  // border: 1px solid rgba($color-accent, .4);
+  &:hover {
+    background-image: url(../images/wsc-chronicle-2016-fill.png);
+  }
+}
 
+.wsc-chronicle-2017 {
+  margin-left: auto;
+  width: 640px;
+  height: 200px;
+  background-image: url(../images/wsc-chronicle-2017-tr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(../images/wsc-chronicle-2017-fill.png);
+  }
+}
+
+.wsc-chronicle-2021 {
+  margin-left: auto;
+  width: 640px;
+  height: 200px;
+  background-image: url(../images/wsc-chronicle-2021-tr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: url(../images/wsc-chronicle-2021-fill.png);
+  }
 }
 
 .wsc-chronicle-text-wrap {
-  // position: absolute;
-  // top: 100px;
-  // left: 0;
   margin-top: -100px;
   max-width: 70%;
-  border: 1px solid yellow;
+  // border: 1px solid yellow;
 }
-
 
 .wsc-chronicle-text {
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
   color: $color-light;
-
 }
