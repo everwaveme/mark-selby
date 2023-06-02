@@ -1,0 +1,41 @@
+.footer {
+  padding: 45px 0;
+  background-color: $color-dark;
+}
+
+.footer-container {
+  @include container;
+  border: none;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .01rem;
+  color: $color-light;
+}
+
+.footer-author {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .01rem;
+  color: $color-light;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: $color-accent;
+
+  &:hover {
+    color: $color-accent;
+    opacity: .8;
+    border-bottom: 1px solid;
+  }
+}

@@ -1,0 +1,8 @@
+.facts {
+  padding: 150px 0;
+  background-color: $color-accent;
+}
+
+.facts-container {
+  @include container;
+}
