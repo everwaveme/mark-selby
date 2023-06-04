@@ -6,3 +6,53 @@
 .more-info-container {
   @include container;
 }
+
+.more-info-title {
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: $color-dark;
+}
+
+.more-info-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.more-info-item {
+  position: relative;
+  flex-basis: 50%;
+}
+
+.more-info-img {
+  border-radius: 15px;
+}
+
+.more-info-fade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .2);
+  border-radius: 15px;
+}
+
+
+.more-info-caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: $color-light;
+  background-color: aqua;
+
+  // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
