@@ -27,6 +27,7 @@
   position: relative;
   flex-basis: 50%;
   padding: 10px;
+  height: 400px;
 }
 
 .more-info-link {
@@ -46,7 +47,7 @@
   left: 10px;
   bottom: 10px;
   // width: 100%;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .3);
   border-radius: 15px;
 }
 
@@ -55,16 +56,16 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 35px;
-  // width: 100%;
+  padding: 40px;
+  width: 100%;
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
   color: $color-light;
 
   &:hover {
-    color: $color-accent;
-    opacity: .8;
+    // color: $color-accent;
+    // opacity: .8;
     text-decoration: underline;
   }
 
