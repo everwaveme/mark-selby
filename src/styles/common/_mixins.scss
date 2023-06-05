@@ -1,5 +1,5 @@
 @mixin container($width: 1264px) {
   max-width: $width;
   margin: 0 auto;
-  // border: 1px solid red;
+  border: 1px solid red;
 }

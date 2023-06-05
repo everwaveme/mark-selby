@@ -1,11 +1,21 @@
 .facts {
+  position: relative;
   padding: 350px 0;
-  background-color: $color-accent;
-  // background-image: url(../images/ms.gif);
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
+  background-image: url(../images/ms.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
+}
+
+.facts-fade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
 }
 
 .facts-container {
