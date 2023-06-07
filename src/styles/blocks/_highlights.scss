@@ -1,24 +1,42 @@
-.facts {
-  position: relative;
-  padding: 250px 0;
+.highlights {
+  padding: 150px 0;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%),
-              url(../images/ms.gif);
+              url(../images/ms-highlights.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
-.facts-container {
+.highlights-container {
   @include container;
 }
 
-.facts-title {
+.highlights-title {
   margin-bottom: 100px;
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
   text-align: center;
   color: $color-light;
+}
+
+.highlights-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: -10px;
+}
+
+.highlights-box {
+  flex-basis: 33.33%;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  // border: 1px solid aqua;
+}
+
+.highlights-video {
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 15px;
 }
