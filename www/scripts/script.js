@@ -1,1 +1,6 @@
-console.log('script work!');
+$(document).ready(function () {
+
+  //Carousel for 'facts' section
+  $('.js-slider').slick();
+
+});
