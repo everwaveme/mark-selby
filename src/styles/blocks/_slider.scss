@@ -1,1 +1,69 @@
-//Задать 'p' класс.
+.slider {
+  position: relative;
+  padding: 0 140px;
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 87;
+    margin-top: -70px;
+    font-size: 0;
+    width: 35px;
+    height: 35px;
+  }
+
+  .slick-prev {
+    left: 0;
+    background: transparent;
+    background: url(../images/arrow-left.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+
+  }
+
+  .slick-next {
+    right: 0;
+    background: transparent;
+    background-image: url(../images/arrow-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+  }
+
+  .slick-text {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $color-light;
+  }
+
+  .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      margin: 100px 5px 0 5px;
+      list-style: none;
+      width: 20px;
+      min-width: 4px;
+      height: 4px;
+      background-color: $color-dark;
+
+      button {
+        font-size: 0;
+        background: transparent;
+        border: none;
+        border-radius: none;
+      }
+
+      &.slick-active {
+        background-color: $color-accent;
+      }
+    }
+  }
+}
