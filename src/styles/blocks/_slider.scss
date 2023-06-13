@@ -20,7 +20,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
-
   }
 
   .slick-next {
@@ -63,6 +62,7 @@
 
       &.slick-active {
         background-color: $color-accent;
+        transition: .3s;
       }
     }
   }
