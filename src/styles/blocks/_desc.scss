@@ -1,7 +1,4 @@
 .desc {
-  // position: sticky;
-  // top: 0;
-  // z-index: -1;
   background-image: url(../images/ms-desc-bw.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -13,7 +10,6 @@
   height: 100vh;
   padding-top: 70vh;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
-  // background-attachment: fixed;
 }
 
 .desc-container {
@@ -26,6 +22,14 @@
   font-size: 72px;
   line-height: 92px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 .desc-subtitle {
@@ -33,4 +37,12 @@
   font-size: 36px;
   line-height: 44px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }

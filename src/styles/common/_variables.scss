@@ -7,5 +7,13 @@ $color-light: #fff;
 $color-accent: #cdac66;
 
 // indents
+$gap: 30px;
+$gap-half: 15px;
 
 // breakpoints
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;
