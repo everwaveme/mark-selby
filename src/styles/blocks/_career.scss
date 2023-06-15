@@ -1,6 +1,14 @@
 .career {
   padding: 150px 0;
   background-color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    padding: 130px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 100px 0;
+  }
 }
 
 .career-container {
@@ -10,13 +18,32 @@
 .career-wrap {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $tablet-max) {
+    flex-direction: column;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+  }
 }
 
 .career-pic {
   flex-basis: 40%;
+
+  @media (max-width: $tablet-max) {
+    align-self: center;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 .career-img {
+
 }
 
 .career-desc {
@@ -29,6 +56,14 @@
   font-size: 48px;
   line-height: 65px;
   color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 .career-text {

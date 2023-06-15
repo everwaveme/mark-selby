@@ -8,12 +8,8 @@
 
 .desc-fade {
   height: 100vh;
-  padding-top: 70vh;
+  padding-top: 75vh;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
-
-  @media (max-width: $mobile-max) {
-    padding-top: 75vh;
-  }
 }
 
 .desc-container {
@@ -28,6 +24,7 @@
   color: $color-light;
 
   @media (max-width: $tablet-max) {
+    text-align: center;
     margin-bottom: 10px;
     font-size: 58px;
     line-height: 70px;
@@ -48,6 +45,7 @@
   color: $color-light;
 
   @media (max-width: $tablet-max) {
+    text-align: center;
     font-size: 32px;
     line-height: 46px;
   }
