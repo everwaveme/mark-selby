@@ -10,6 +10,10 @@
   height: 100vh;
   padding-top: 70vh;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
+
+  @media (max-width: $mobile-max) {
+    padding-top: 75vh;
+  }
 }
 
 .desc-container {
@@ -17,18 +21,23 @@
 }
 
 .desc-title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 700;
   font-size: 72px;
   line-height: 92px;
   color: $color-light;
 
   @media (max-width: $tablet-max) {
-
+    margin-bottom: 10px;
+    font-size: 58px;
+    line-height: 70px;
   }
 
   @media (max-width: $mobile-max) {
-
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 52px;
+    line-height: 65px;
   }
 }
 
@@ -39,10 +48,13 @@
   color: $color-light;
 
   @media (max-width: $tablet-max) {
-
+    font-size: 32px;
+    line-height: 46px;
   }
 
   @media (max-width: $mobile-max) {
-
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
   }
 }
