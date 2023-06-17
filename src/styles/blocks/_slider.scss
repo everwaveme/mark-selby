@@ -2,6 +2,14 @@
   position: relative;
   padding: 0 140px;
 
+  @media (max-width: $tablet-max) {
+    padding: 0 120px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 0 80px;
+  }
+
   .slick-arrow {
     position: absolute;
     top: 50%;
@@ -10,6 +18,18 @@
     font-size: 0;
     width: 35px;
     height: 35px;
+
+    @media (max-width: $tablet-max) {
+      margin-top: -67px;
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: $mobile-max) {
+      margin-top: -65px;
+      width: 25px;
+      height: 25px;
+    }
   }
 
   .slick-prev {
@@ -38,6 +58,16 @@
     line-height: 48px;
     text-align: center;
     color: $color-light;
+
+    @media (max-width: $tablet-max) {
+      font-size: 28px;
+      line-height: 42px;
+    }
+
+    @media (max-width: $mobile-max) {
+      font-size: 24px;
+      line-height: 36px;
+    }
   }
 
   .slick-dots {
