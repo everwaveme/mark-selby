@@ -50,7 +50,7 @@
 
   @media (max-width: $mobile-max) {
     flex-wrap: wrap;
-    // margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -114,7 +114,7 @@
 // Для данных элементов использовал файлы png, а не шрифт, т.к. у шрифта 'Inter' проблемы с отображением при использовании обводки (неккоректное отображение).
 .wsc-chronicle-2014 {
   margin-left: auto;
-  width: 640px;
+  max-width: 640px;
   height: 200px;
   background-image: url(../images/wsc-chronicle-2014-tr.png);
   background-size: contain;
@@ -127,7 +127,7 @@
 
 .wsc-chronicle-2016 {
   margin-left: auto;
-  width: 640px;
+  max-width: 640px;
   height: 200px;
   background-image: url(../images/wsc-chronicle-2016-tr.png);
   background-size: contain;
@@ -140,7 +140,7 @@
 
 .wsc-chronicle-2017 {
   margin-left: auto;
-  width: 640px;
+  max-width: 640px;
   height: 200px;
   background-image: url(../images/wsc-chronicle-2017-tr.png);
   background-size: contain;
@@ -153,7 +153,7 @@
 
 .wsc-chronicle-2021 {
   margin-left: auto;
-  width: 640px;
+  max-width: 640px;
   height: 200px;
   background-image: url(../images/wsc-chronicle-2021-tr.png);
   background-size: contain;
@@ -168,6 +168,16 @@
   margin-top: -100px;
   max-width: 70%;
   // border: 1px solid yellow;
+
+  @media (max-width: $tablet-max) {
+    margin-top: -120px;
+    max-width: 80%;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: -130px;
+    min-width: 85%;
+  }
 }
 
 .wsc-chronicle-text {
@@ -175,4 +185,14 @@
   font-size: 24px;
   line-height: 36px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
