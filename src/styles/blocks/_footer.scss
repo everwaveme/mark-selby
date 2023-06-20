@@ -1,37 +1,52 @@
 .footer {
   padding: 45px 0;
   background-color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    padding: 50px 0;
+  }
 }
 
 .footer-container {
   @include container;
-  border: none;
 }
 
 .footer-wrap {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $tablet-max) {
+    flex-direction: column;
+  }
 }
 
 .footer-social {
   font-weight: 400;
   font-size: 16px;
-  line-height: 16px;
-  letter-spacing: .01rem;
+  line-height: 24px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }
 
 .footer-author {
   font-weight: 400;
   font-size: 16px;
-  line-height: 16px;
-  letter-spacing: .01rem;
+  line-height: 24px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    text-align: center;
+  }
 }
 
 .footer-link {
   text-decoration: none;
   color: $color-accent;
+  // transition: .3s;
 
   &:hover {
     color: $color-accent;
