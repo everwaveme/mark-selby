@@ -46,11 +46,10 @@
 .footer-link {
   text-decoration: none;
   color: $color-accent;
-  // transition: .3s;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     color: $color-accent;
-    opacity: .8;
-    border-bottom: 1px solid;
+    opacity: .5;
   }
 }

@@ -18,6 +18,7 @@
 .career-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   @media (max-width: $tablet-max) {
     flex-direction: column;
@@ -40,6 +41,8 @@
 
 .career-pic {
   flex-basis: 40%;
+  border-radius: 50%;
+  overflow: hidden;
 
   @media (max-width: $tablet-max) {
     align-self: center;
@@ -55,7 +58,11 @@
 }
 
 .career-img {
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .career-desc {

@@ -73,7 +73,7 @@
   bottom: 10px;
   background: rgba(0, 0, 0, .3);
   border-radius: 15px;
-  transition: .3s;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     background: none;
@@ -91,11 +91,10 @@
   line-height: 38px;
   color: $color-light;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
-    // color: $color-accent;
-    // opacity: .8;
-    text-decoration: underline;
+    margin-bottom: 10px;
   }
 
   @media (max-width: $tablet-max) {

@@ -82,12 +82,22 @@
   background-repeat: no-repeat;
 }
 
-.wsc-img {
-  margin-bottom: 35px;
+.wsc-img-wrap {
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.wsc-img {
+  border-radius: 10px;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .wsc-text {
+  margin-top: 35px;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
@@ -116,6 +126,7 @@
   background-image: url(../images/wsc-chronicle-2014-tr.png);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     background-image: url(../images/wsc-chronicle-2014-fill.png);
@@ -129,6 +140,7 @@
   background-image: url(../images/wsc-chronicle-2016-tr.png);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     background-image: url(../images/wsc-chronicle-2016-fill.png);
@@ -142,6 +154,7 @@
   background-image: url(../images/wsc-chronicle-2017-tr.png);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     background-image: url(../images/wsc-chronicle-2017-fill.png);
@@ -155,6 +168,7 @@
   background-image: url(../images/wsc-chronicle-2021-tr.png);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
     background-image: url(../images/wsc-chronicle-2021-fill.png);
