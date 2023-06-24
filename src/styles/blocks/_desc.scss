@@ -8,15 +8,15 @@
 
 .desc-fade {
   height: 100vh;
-  padding-top: 70vh;
+  padding-top: 60vh;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
 
   @media (max-width: $tablet-max) {
-    padding-top: 75vh;
+    padding-top: 65vh;
   }
 
   @media (max-width: $mobile-max) {
-    padding-top: 75vh;
+    padding-top: 70vh;
   }
 }
 
@@ -29,6 +29,7 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 92px;
+  text-align: center;
   color: $color-light;
 
   @media (max-width: $tablet-max) {
@@ -51,6 +52,7 @@
   font-size: 36px;
   line-height: 44px;
   color: $color-light;
+  text-align: center;
 
   @media (max-width: $tablet-max) {
     text-align: center;
@@ -62,5 +64,25 @@
     text-align: center;
     font-size: 22px;
     line-height: 34px;
+  }
+}
+
+.desc-arrow-down {
+  display: block;
+  margin: 90px auto 0 auto;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: $tablet-max) {
+    margin: 70px auto 0 auto;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin: 50px auto 0 auto;
+    width: 30px;
+    height: 30px;
   }
 }
