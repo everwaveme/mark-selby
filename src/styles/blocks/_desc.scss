@@ -48,16 +48,16 @@
 }
 
 .desc-subtitle {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 44px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
   color: $color-light;
   text-align: center;
 
   @media (max-width: $tablet-max) {
     text-align: center;
-    font-size: 32px;
-    line-height: 46px;
+    font-size: 28px;
+    line-height: 42px;
   }
 
   @media (max-width: $mobile-max) {
