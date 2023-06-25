@@ -69,15 +69,33 @@
 
 .desc-arrow-down {
   display: block;
-  margin: 90px auto 0 auto;
+  margin: 80px auto 0 auto;
   width: 35px;
   height: 35px;
+  text-decoration: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  animation: scroll_down 3s ease-in-out infinite;
+
+  @keyframes scroll_down {
+    0% {
+      transform: translate(0, -30px);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(0, 30px);
+      opacity: 0;
+    }
+  }
 
   @media (max-width: $tablet-max) {
-    margin: 70px auto 0 auto;
+    margin: 65px auto 0 auto;
   }
 
   @media (max-width: $mobile-max) {
