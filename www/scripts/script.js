@@ -12,4 +12,6 @@ $(document).ready(function () {
 });
 
 //AOS animation
-AOS.init();
+AOS.init({
+  // once: true,
+});
