@@ -8,11 +8,11 @@
 
 .desc-fade {
   height: 100vh;
-  padding-top: 60vh;
+  padding-top: 65vh;
   background: linear-gradient(180deg, rgba(34, 34, 37, 0.7) 0.01%, rgba(34, 34, 37, 0.7) 0.02%, rgba(34, 34, 37, 0.7) 0.03%, rgba(205, 172, 102, 0.7) 100%);
 
   @media (max-width: $tablet-max) {
-    padding-top: 65vh;
+    padding-top: 70vh;
   }
 
   @media (max-width: $mobile-max) {
@@ -69,7 +69,7 @@
 
 .desc-arrow-down {
   display: block;
-  margin: 80px auto 0 auto;
+  margin: 70px auto 0 auto;
   width: 35px;
   height: 35px;
   text-decoration: none;
@@ -95,7 +95,7 @@
   }
 
   @media (max-width: $tablet-max) {
-    margin: 65px auto 0 auto;
+    margin: 60px auto 0 auto;
   }
 
   @media (max-width: $mobile-max) {
