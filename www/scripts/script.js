@@ -6,8 +6,32 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnDotsHover: true,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     speed: 1000,
+
+  //   centerMode: true,
+  //   centerPadding: '60px',
+  //   slidesToShow: 1,
+  //   responsive: [
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //        arrows: false,
+  //        centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 1
+  //       }
+  //    },
+  //    {
+  //      breakpoint: 480,
+  //       settings: {
+  //         arrows: false,
+  //         centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 1
+  //       }
+  //    }
+  //  ]
   });
 });
 
