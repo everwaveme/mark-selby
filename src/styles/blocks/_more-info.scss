@@ -44,11 +44,12 @@
 
 .more-info-item {
   position: relative;
-  flex-basis: 50%;
+  flex-basis: 25%;
   padding: 10px;
-  height: 400px;
+  height: 450px;
 
   @media (max-width: $tablet-max) {
+    flex-basis: 50%;
     height: 500px;
   }
 
@@ -84,11 +85,11 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 40px;
+  padding: 35px;
   width: 100%;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 26px;
+  line-height: 34px;
   color: $color-light;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
@@ -98,7 +99,6 @@
   }
 
   @media (max-width: $tablet-max) {
-    padding: 35px;
     font-size: 28px;
     line-height: 38px;
   }

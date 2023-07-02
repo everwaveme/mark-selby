@@ -14,7 +14,6 @@
   @media (max-width: $mobile-max) {
     padding: 100px 0;
   }
-
 }
 
 .facts-container {
@@ -22,7 +21,7 @@
 }
 
 .facts-title {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
@@ -39,4 +38,57 @@
     font-size: 36px;
     line-height: 42px;
   }
+}
+
+.facts-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -10px;
+  list-style: none;
+
+  @media (max-width: $tablet-max) {
+    justify-content: center;
+  }
+}
+
+.facts-item {
+  flex-basis: 33.33%;
+  padding: 10px;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+  }
+}
+
+.facts-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  height: 100%;
+  min-height: 170px;
+  background-color: rgba(34, 34, 37, .3);
+  border-radius: 10px;
+
+  &:hover {
+    background-color: rgba($color-accent, .3);
+  }
+}
+
+.facts-icon {
+  font-size: 22px;
+  padding-top: 25px;
+  align-self: center;
+}
+
+.facts-text {
+  padding: 25px 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: $color-light;
 }

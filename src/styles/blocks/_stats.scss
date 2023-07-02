@@ -42,9 +42,10 @@
   height: 250px;
   border: 2px solid rgba(205, 172, 102, .4);
   border-radius: 8px;
-  transition: .3s;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
+    background-color: $color-accent;
     box-shadow: 0 0 15px rgba($color-accent, 0.5);
   }
 
