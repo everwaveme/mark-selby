@@ -32,6 +32,25 @@
   }
 }
 
+.eng-lang-switcher {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  @media (max-width: $tablet-max) {
+    margin: 0 auto 10px auto;
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.rus-lang-switcher {
+
+}
+
 .footer-author {
   font-weight: 400;
   font-size: 16px;
