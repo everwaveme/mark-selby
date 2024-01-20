@@ -1,12 +1,12 @@
 {
-  "name": "polygon",
-  "version": "7.7.7",
-  "description": "",
+  "name": "Mark Selby",
+  "version": "1.0.0",
+  "description": "Snooker player website",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
-  "author": "",
+  "author": "Farhad Sadykov",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.29.3",
