@@ -6,20 +6,10 @@ Also known as "The Jester from Leicester".
 
 <img src="/mark-selby.gif" alt="project photo" width="100%"/>
 
-## Install
-
-```
-```
-
-## Usage
-
-```
-```
-
-## Contributing
+### Contributing
 
 PRs accepted.
 
-## License
+### License
 
 © Farhad Sadykov
